@@ -1,0 +1,64 @@
+:root {
+  --white: #fff;
+  --rich-black: #0D1821;
+}
+
+body {
+	font-family: 'calibri', sans-serif;
+	font-size: 16px;
+	color: var(--rich-black);
+	background-color: var(--white);
+	text-align: center;
+	line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-container {
+  padding: 2px;
+  width: 40%;
+  margin: auto;
+  border: 1.5px solid #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: var(--white);
+}
+
+.container {
+	padding: 0;
+	margin: 20px auto;
+}
+
+h1 {
+  line-height: 0.8em;
+}
+
+h3 {
+  margin: 20px auto;
+}
+
+hr {
+  margin: 10px;
+}
+
+.footer {
+	margin: 20px auto;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+
+a {
+	color: blue;
+}

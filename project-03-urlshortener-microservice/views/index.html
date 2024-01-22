@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>URL Shortener Microservice</title>
+    <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+    <link href="/public/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+  
+    <div class="card-container">
+
+      <div class="main-container">
+
+        <h1>URL SHORTNER MICROSERVICE</h1>
+        
+        <main>
+          <section>
+            <form action="api/shorturl" method="POST" target="_blank">
+              <fieldset>
+                <legend>URL Shortener</legend>
+                <label for="url_input">URL:</label>
+                <input id="url_input" type="text" name="url" placeholder="https://www.freecodecamp.org/" />
+                <input type="submit" value="POST URL" />
+              </fieldset>
+            </form>
+          </section>
+        </main>
+        
+        <footer>
+          <p>by <a href="#">Rutwij Patankar</a> for <a href="https://www.freecodecamp.org/learn/back-end-development-and-apis" target="_blank">freecodecamp.org</a></p>
+        </footer>
+        
+      </div>
+      
+    </div>
+  
+  </body>
+  
+</html>
