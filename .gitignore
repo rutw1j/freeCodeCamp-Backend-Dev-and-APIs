@@ -41,6 +41,7 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+**/node_modules/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -130,9 +131,9 @@ dist
 .pnp.*
 
 # Ignore Replit Files
-/.cache
-/.upm/
-.replit
-.nix
-replit_zip_error_log
-.gitconfig
+**/.cache
+**/.upm/
+**/.replit
+**.nix
+**/replit_zip_error_log
+**/.gitconfig
