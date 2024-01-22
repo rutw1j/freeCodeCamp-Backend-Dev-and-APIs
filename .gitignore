@@ -134,6 +134,6 @@ dist
 **/.cache
 **/.upm/
 **/.replit
-**.nix
-**/replit_zip_error_log
+**/replit.nix
+**/replit_zip_error_log.txt
 **/.gitconfig
